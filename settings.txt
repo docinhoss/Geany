@@ -1,0 +1,8 @@
+* Ctr + Alt + p
+ * Keybindings: Switch to edtir -> F1 | Switch to VTE -> F2
+ * Terminal: Follow path of the current directory
+ * Editor: Comment toggle marker (Empty)
+ * Leave
+ * Build -> Set Build Commands
+ * Compile: g++ -stdc=c++17 -Wshadow -Wall -o "%e" "%f" -O2 -Wno-unused-result
+ * Build: g++ -stdc=c++17 -Wshadow -Wall -o "%e" "%f" -g -fsanitize=address-fsanitize=undefined -D_GLIBCXX_DEBUG
